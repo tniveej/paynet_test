@@ -22,7 +22,7 @@ cd paynet_test
 conda create -n paynet python=3.12
 conda activate paynet
 ```
-- Python 3.12 required for pyspark 4.0 which contains native plotting for sql dataframe (without needing to convert to pandas on spark dataframes)
+- **Python 3.12 required for pyspark 4.0 which contains native plotting for sql dataframe (without needing to convert to pandas on spark dataframes)**
 
 
 3. Install required packages:
@@ -38,6 +38,7 @@ jupyter notebook analysis.ipynb
 5. Other dependencies :
 
 - Ensure jdk version 21 is installed on the system
+
 
 ## Data Cleaning and PII Handling
 
